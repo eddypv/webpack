@@ -10,7 +10,7 @@ module.exports = {
         rules:[
             {
 
-                test:'/\.css$/',
+                test:/\.css$/,
                 
                 use:ExtractTextPlugin.extract({
                     fallback:'style-loader',
@@ -20,6 +20,6 @@ module.exports = {
         ]
     },
     plugins:[
-        new ExtractTextPlugin("css/styles.css")
+        new ExtractTextPlugin("css/[name].css")
     ]
 }
