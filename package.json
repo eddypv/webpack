@@ -16,7 +16,8 @@
     "build:image": "webpack --config ./url-loader-image/webpack.config.js",
     "build:font": "webpack --config ./url-loader-fonts/webpack.config.js",
     "build:video": "webpack --config ./url-loader-video/webpack.config.js",
-    "build:json": "webpack --config ./json-loader/webpack.config.js"
+    "build:json": "webpack --config ./json-loader/webpack.config.js",
+    "build:react": "webpack --config ./react/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -28,6 +29,7 @@
     "babel-loader": "7.1.2",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-es2016": "6.24.1",
+    "babel-preset-react": "^6.24.1",
     "css-loader": "0.28.7",
     "extract-text-webpack-plugin": "4.0.0-beta.0",
     "file-loader": "2.0.0",
@@ -37,5 +39,9 @@
     "webpack": "4.20.2",
     "webpack-cli": "3.1.2",
     "webpack-dev-server": "3.1.10"
+  },
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
   }
 }
