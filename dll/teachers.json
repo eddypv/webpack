@@ -1,0 +1,12 @@
+{
+    "teachers":[
+        {
+            "name":"Freddy Vega",
+            "twitter":"freddier"
+        },
+        {
+            "name":"Sacha Lifszyc",
+            "twitter":"sacha"
+        }
+    ]
+}
